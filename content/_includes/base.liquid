@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title | default: site.defaultTitle }}</title>
+    <meta name="description" content="{{ description | default: site.defaultDescription }}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{{ title | default: site.defaultTitle }}">
+    <meta property="og:description" content="{{ description | default: site.defaultDescription }}">
+    <meta property="og:image" content="{{ site.ogImage }}">
+    <meta property="og:image:alt" content="{{ site.ogImageAlt }}">
+
+    <meta name="twitter:card" content="{{ site.twitterCard }}">
+    <meta name="twitter:title" content="{{ title | default: site.defaultTitle }}">
+    <meta name="twitter:description" content="{{ description | default: site.defaultDescription }}">
+    <meta name="twitter:image" content="{{ site.ogImage }}">
+    <meta name="twitter:image:alt" content="{{ site.ogImageAlt }}">
+
+    {% if site.googleSiteVerification != blank %}
+      <meta name="google-site-verification" content="{{ site.googleSiteVerification }}">
+    {% endif %}
+    {% if site.bingSiteVerification != blank %}
+      <meta name="msvalidate.01" content="{{ site.bingSiteVerification }}">
+    {% endif %}
+
+    <link rel="icon" href="/assets/logo.webp">
+    <link rel="preload" href="/assets/home_img_01.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="/assets/game-play.webp" as="image" fetchpriority="high">
+    <link rel="stylesheet" href="/assets/site.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <div class="container header-content">
+        <a class="brand" href="/">
+          <img class="brand-logo" src="/assets/logo.webp" alt="The Freak Circus logo">
+          <span class="brand-text">The Freak Circus</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary">
+          <a href="/">Home</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button" aria-expanded="false">Characters</button>
+            <div class="nav-dropdown-menu">
+              <a href="/pierrot">Pierrot</a>
+              <a href="/harlequin">Harlequin</a>
+              <a href="/jester">Jester</a>
+              <a href="/doctor">Doctor</a>
+              <a href="/ticket-taker">Ticket Taker</a>
+            </div>
+          </div>
+          <a href="/routes">Routes</a>
+          <a href="/endings">Endings</a>
+          <a href="/wiki">Wiki</a>
+          <a href="/updates">Updates</a>
+          <a href="/download">Download</a>
+        </nav>
+
+        <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" data-mobile-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Open menu</span>
+        </button>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+        <a href="/">Home</a>
+        <a href="/pierrot">Pierrot</a>
+        <a href="/harlequin">Harlequin</a>
+        <a href="/jester">Jester</a>
+        <a href="/doctor">Doctor</a>
+        <a href="/ticket-taker">Ticket Taker</a>
+        <a href="/routes">Routes</a>
+        <a href="/endings">Endings</a>
+        <a href="/wiki">Wiki</a>
+        <a href="/updates">Updates</a>
+        <a href="/download">Download</a>
+      </nav>
+    </header>
+
+    {% if page.url == "/" %}
+      <main>
+        {{ content }}
+      </main>
+    {% else %}
+      <main class="content-page">
+        <section class="content-hero">
+          <div class="container">
+            <p class="eyebrow">The Freak Circus Guide</p>
+            <h1>{{ title }}</h1>
+            {% if description %}
+              <p class="content-lead">{{ description }}</p>
+            {% endif %}
+          </div>
+        </section>
+
+        <section class="content-body">
+          <div class="container">
+            <article class="content-panel prose">
+              {{ content }}
+            </article>
+          </div>
+        </section>
+      </main>
+    {% endif %}
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <section>
+          <div class="footer-brand">
+            <img src="/assets/logo.webp" alt="The Freak Circus logo">
+            <h2>The Freak Circus</h2>
+          </div>
+          <p>Dive into a twisted circus world where obsession, rivalry, and psychological horror collide.</p>
+        </section>
+
+        <section>
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/routes">Routes</a></li>
+            <li><a href="/endings">Endings</a></li>
+            <li><a href="/pierrot">Pierrot</a></li>
+            <li><a href="/harlequin">Harlequin</a></li>
+            <li><a href="/wiki">Wiki</a></li>
+            <li><a href="/updates">Updates</a></li>
+            <li><a href="/download">Download</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Legal</h2>
+          <ul>
+            <li><a href="/cookie-policy">Cookie Policy</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/copyright">Copyright</a></li>
+            <li><a href="/about-us">About Us</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 The Freak Circus Walkthrough Hub.</p>
+        <p class="footer-note">Built as an independent player guide focused on route prep, ending planning, and official access points.</p>
+      </div>
+    </footer>
+
+    <script defer src="/assets/site.js"></script>
+    <script defer src="/assets/embed.js"></script>
+  </body>
+</html>

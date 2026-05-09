@@ -1,0 +1,30 @@
+/* Styles for embed consent and iframe */
+.embed-consent {
+  background: linear-gradient(180deg, rgba(18,18,20,0.6), rgba(18,18,20,0.4));
+  border: 1px solid rgba(255,255,255,0.04);
+  padding: 16px;
+  border-radius: 8px;
+  color: #f3f3f3;
+}
+
+.embed-consent .btn {
+  background: linear-gradient(90deg,#ff6b6b,#f06595);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.embedded-player {
+  width: 100%;
+  height: 70vh;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+  margin-top: 12px;
+}
+
+@media (max-width: 600px) {
+  .embedded-player { height: 55vh; }
+}
