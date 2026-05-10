@@ -74,9 +74,9 @@ button {
   position: fixed;
   inset: 0 0 auto 0;
   z-index: 50;
-  backdrop-filter: blur(14px);
-  background: rgba(0, 0, 0, 0.88);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  background: linear-gradient(180deg, rgba(3, 3, 8, 0.78), rgba(3, 3, 8, 0.24));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
 .header-content {
@@ -237,8 +237,15 @@ button {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 108px;
   background-image: url("/assets/home_img_01.webp");
+  background-position: 72% center;
+}
+
+.section.hero::before {
+  background:
+    linear-gradient(90deg, rgba(4, 4, 10, 0.92) 0%, rgba(4, 4, 10, 0.68) 38%, rgba(12, 0, 22, 0.34) 62%, rgba(8, 0, 16, 0.7) 100%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.58));
 }
 
 .section.play-game {
@@ -272,13 +279,17 @@ button {
   margin: 0 0 18px;
   font-weight: 800;
   letter-spacing: -0.03em;
-  text-transform: uppercase;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-title {
-  text-align: center;
-  font-size: clamp(2.3rem, 7vw, 4.25rem);
+  font-size: clamp(3.6rem, 10vw, 7.2rem);
+  line-height: 0.92;
+  letter-spacing: -0.055em;
+  color: #fff;
+  text-transform: none;
+  background: none;
+  -webkit-text-fill-color: #fff;
 }
 
 .section-title {
@@ -295,23 +306,28 @@ button {
   backdrop-filter: blur(10px);
 }
 
-.hero-panel {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 28px;
-  border-radius: 18px;
-  text-align: center;
+.hero-stage {
+  min-height: calc(100vh - 108px);
+  display: flex;
+  align-items: center;
+}
+
+.hero-copy {
+  width: min(100%, 860px);
+  padding: 24px 0 40px;
 }
 
 .hero-subtitle {
-  margin: 0 0 18px;
-  font-size: clamp(1.15rem, 2.3vw, 1.55rem);
-  color: #f0e7ff;
+  max-width: 980px;
+  margin: 0 0 28px;
+  font-size: clamp(1.5rem, 3.2vw, 2.5rem);
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .hero-kicker {
   margin: 0 0 14px;
-  color: var(--accent-soft);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 0.84rem;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -348,14 +364,14 @@ button {
 }
 
 .hero-platforms {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
   font-size: 0.95rem;
 }
 
 .hero-chip-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 10px;
 }
 
@@ -366,9 +382,9 @@ button {
   min-height: 38px;
   padding: 8px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.06);
-  color: #efe5ff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.09);
+  color: rgba(255, 255, 255, 0.92);
   font-size: 0.92rem;
 }
 
@@ -376,8 +392,12 @@ button {
 .cta-buttons {
   display: flex;
   gap: 16px;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.hero-actions {
+  align-items: center;
 }
 
 .btn {
@@ -392,15 +412,16 @@ button {
   font-weight: 700;
   transition: 0.25s ease;
   cursor: pointer;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
 }
 
 .btn-primary {
   color: #fff;
-  background: var(--accent);
+  background: linear-gradient(135deg, var(--warm-1), var(--warm-3));
 }
 
 .btn-primary:hover {
-  background: #7c3aed;
+  background: linear-gradient(135deg, #ff5d66, #ff4f9c);
   transform: translateY(-2px);
 }
 
@@ -452,7 +473,7 @@ button {
 }
 
 .section.play-game {
-  padding-top: 64px;
+  padding-top: 72px;
   padding-bottom: 72px;
 }
 
@@ -987,10 +1008,11 @@ button {
   }
 
   .section.hero {
-    padding-top: 112px;
+    padding-top: 96px;
+    min-height: auto;
+    background-position: 64% center;
   }
 
-  .hero-panel,
   .play-panel,
   .about-panel,
   .characters-panel,
@@ -999,6 +1021,23 @@ button {
   .content-panel,
   .reviews-shell {
     padding: 20px;
+  }
+
+  .hero-stage {
+    min-height: calc(100vh - 96px);
+  }
+
+  .hero-copy {
+    padding-bottom: 28px;
+  }
+
+  .hero-title {
+    font-size: clamp(3rem, 17vw, 5rem);
+    line-height: 0.94;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1.3rem, 5.5vw, 1.9rem);
   }
 
   .side-card-grid {
@@ -1010,7 +1049,7 @@ button {
   }
 
   .hero-chip-row {
-    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .faq-item,
