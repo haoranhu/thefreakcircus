@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "Content Warning"
+title: "The Freak Circus Content Warning - Themes, Triggers, and Safety Notes"
 description: "Content guidance for The Freak Circus, including possible trigger themes and safer browsing advice."
 ---
 

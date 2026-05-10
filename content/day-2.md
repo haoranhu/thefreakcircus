@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "Day 2 / Updates"
+title: "The Freak Circus Day 2 Updates - Devlog Watch and Route Context"
 description: "A quick update page for Day 2 news, with links back to the official devlog."
 ---
 

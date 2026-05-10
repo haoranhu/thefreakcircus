@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "Play Online — Official Access"
+title: "Play The Freak Circus Online - Official Access Guide"
 description: "How to access The Freak Circus through official channels only, with links that point to the official itch.io page."
 ---
 

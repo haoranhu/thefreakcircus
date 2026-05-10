@@ -34,6 +34,102 @@
     <link rel="preload" href="/assets/home_img_01.webp" as="image" fetchpriority="high">
     <link rel="preload" href="/assets/game-play.webp" as="image" fetchpriority="high">
     <link rel="stylesheet" href="/assets/site.css">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.name | escape }}",
+        "url": "{{ site.url }}",
+        "description": "{{ site.defaultDescription | escape }}"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "{{ title | default: site.defaultTitle | escape }}",
+        "url": "{{ site.url }}{{ page.url }}",
+        "description": "{{ description | default: site.defaultDescription | escape }}",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "{{ site.name | escape }}",
+          "url": "{{ site.url }}"
+        }
+      }
+    </script>
+    {% unless page.url == "/" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "{{ site.url }}"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{ title | default: site.defaultTitle | escape }}",
+            "item": "{{ site.url }}{{ page.url }}"
+          }
+        ]
+      }
+    </script>
+    {% endunless %}
+    {% if page.url == "/faq/" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is this the official site?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. This is an independent guide site, and outbound links are kept focused on the official itch.io page and the creator's devlog."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I play directly on this site?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. This site does not host playable builds or mirror copies. Use the Play Online page for official access guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the game free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Check the official itch.io page for the current pricing or payment model."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where should I check Day 2 updates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The creator's devlog should be treated as the primary source for Day 2 updates."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where should I go for endings or route help?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the endings page, routes page, character pages, or the Day 2 update page depending on how much spoiler detail you want."
+            }
+          }
+        ]
+      }
+    </script>
+    {% endif %}
   </head>
   <body>
     <header class="site-header" data-header>

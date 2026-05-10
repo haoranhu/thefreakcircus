@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "FAQ"
+title: "The Freak Circus FAQ - Official Access, Pricing, and Day 2 Help"
 description: "Quick answers about official access, pricing, language, and where to follow Day 2 updates."
 ---
 
