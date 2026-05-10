@@ -27,5 +27,5 @@ The circus setting works because it mixes romance tension, dread, spectacle, and
 - [Endings Guide](/endings)
 - [Day 2 / Updates](/day-2)
 - [FAQ](/faq)
-- [Pierrot](/characters/pierrot)
-- [Harlequin](/characters/harlequin)
+- [Pierrot](/pierrot)
+- [Harlequin](/harlequin)

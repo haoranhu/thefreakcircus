@@ -24,5 +24,5 @@ If you're looking for a Day 3 walkthrough, this page is the preparation layer: s
 
 - [Day 2 / Updates](/day-2)
 - [Wiki](/wiki)
-- [Pierrot](/characters/pierrot)
-- [Harlequin](/characters/harlequin)
+- [Pierrot](/pierrot)
+- [Harlequin](/harlequin)

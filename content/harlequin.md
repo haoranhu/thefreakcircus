@@ -18,4 +18,4 @@ Harlequin pushes the story through contradiction, flirtation, and destabilizatio
 
 Watch how you respond to her tests. Curiosity, resistance, and participation can all change how much of her subtext becomes visible.
 
-You can also read the earlier guide version here: [Harlequin (Characters)](/characters/harlequin).
+For the strongest search and navigation signal, use this main Harlequin page together with the [Routes Guide](/routes) and [Endings Guide](/endings).
