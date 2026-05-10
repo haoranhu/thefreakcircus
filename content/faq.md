@@ -1,28 +1,28 @@
 ---
 layout: base.liquid
-title: "FAQ — 常见问题"
-description: "常见问题：是否免费、如何游玩、语言、Day 2 从哪看等简明回答。"
+title: "FAQ"
+description: "Quick answers about official access, pricing, language, and where to follow Day 2 updates."
 ---
 
-# 常见问题（FAQ）
+# FAQ
 
-Q: 这是官方站点吗？
+Q: Is this the official site?
 
-A: 不是。本站为非官方指南，所有外链尽量指向官方 itch.io 与作者发布的 devlog。
+A: No. This is an independent guide site, and outbound links are kept focused on the official itch.io page and the creator's devlog.
 
-Q: 可以直接在本站游玩吗？
+Q: Can I play directly on this site?
 
-A: 不能。本站不提供可嵌入的 playable 内容，也不托管任何镜像。请参见 [Play Online](/play-online)。
+A: No. This site does not host playable builds or mirror copies. See [Play Online](/play-online).
 
-Q: 游戏是免费的吗？
+Q: Is the game free?
 
-A: 以官方 itch.io 为准。请参考官方页面的价格或付费信息。
+A: Check the official itch.io page for the current pricing or payment model.
 
-Q: Day 2 / 更新在哪里看？
+Q: Where should I check Day 2 updates?
 
-A: 作者的 devlog 为首要来源，见：
+A: The creator's devlog should be treated as the primary source:
 https://garula.itch.io/the-freak-circus/devlog/1114899/last-devlog-before-the-update-i-hope
 
-Q: 我想了解结局/路线，该去哪里？
+Q: Where should I go for endings or route help?
 
-A: 结局与路线内容可能包含剧透。本站在后续版本会提供 `/endings` 与 `/routes` 页面（P1），当前请在角色页或 `/day-2` 查看带警示的提示。
+A: Ending and route content can contain spoilers. Use the `/endings`, `/routes`, character pages, or `/day-2` update notes depending on what level of guidance you want.

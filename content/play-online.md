@@ -1,21 +1,21 @@
 ---
 layout: base.liquid
 title: "Play Online — Official Access"
-description: "如何安全地从官方渠道游玩 The Freak Circus（仅指向 itch.io 官方页面）。"
+description: "How to access The Freak Circus through official channels only, with links that point to the official itch.io page."
 ---
 
-# Play Online — 官方获取指引
+# Play Online — Official Access Guide
 
-本站仅指向官方渠道，避免任何盗版或不安全镜像。
+This page points to official access routes only and avoids pirate copies or unsafe mirrors.
 
-如何在浏览器中游玩：
+How to play in your browser:
 
-1. 访问官方 itch.io 页面： https://garula.itch.io/
-2. 在 The Freak Circus 条目中寻找“Play”或“Browser”链接。
-3. 若页面提示下载或外部托管，请优先选择 itch.io 提供的官方链接。
+1. Visit the official itch.io page: https://garula.itch.io/
+2. Look for a "Play" or "Browser" option on the The Freak Circus listing.
+3. If the page points you to downloads or external hosting, prefer the official links provided through itch.io.
 
-安全提示：
+Safety notes:
 
-- 不要点击来自搜索结果的可疑“play online”镜像链接。
-- 官方 devlog（作者发布的更新）为验证游戏状态的首要来源：
+- Do not trust suspicious "play online" mirror links from search results.
+- The official devlog is the best source for confirming the game's current status:
   https://garula.itch.io/the-freak-circus/devlog/1114899/last-devlog-before-the-update-i-hope

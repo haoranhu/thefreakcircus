@@ -2,27 +2,27 @@
 layout: base.liquid
 sitemap: false
 title: "Harlequin — Character"
-description: "Harlequin 的简介、性格要点与路线提示（剧透警告）。"
+description: "A short introduction to Harlequin, including personality notes and light route guidance."
 ---
 
 # Harlequin
 
-简介：
+Overview:
 
-Harlequin 为作品中的另一重要角色，通常以对立或互补的方式推动主线。其言行可能充满暗示性与象征意味。
+Harlequin is another major character in the story, often pushing the main plot forward through contrast, tension, or symbolic dialogue.
 
-性格要点：
+Character notes:
 
-- 行为风格：语带双关、神秘且富有表演性。
-- 在剧情中常作为触发转折或暴露真相的关键人物。
+- Speaking style: layered, cryptic, and highly performative.
+- He often acts as the character who triggers turning points or exposes hidden truths.
 
-路线提示（轻微提示，无剧透）：
+Route notes:
 
-- 与 Harlequin 的互动选择会影响信息暴露的顺序与玩家可见的线索。
-- 若希望理解角色背景，建议在完成初次游玩后回访此页查找更具体的路线指引。
+- Your interactions with Harlequin can change the order in which clues and story details become visible.
+- If you want a clearer read on his background, this page is best revisited after an initial playthrough.
 
-官方来源：
+Official source:
 
 https://garula.itch.io/
 
-剧透：详细路线与结局将在后续 `/routes` 与 `/endings` 页面中展开，当前仅提供概要与安全提示。
+Spoiler note: detailed route and ending breakdowns are better handled on `/routes` and `/endings`. This page stays at a lighter summary level.

@@ -1,15 +1,15 @@
 ---
 layout: base.liquid
 title: "Day 2 / Updates"
-description: "关于 Day 2 更新与官方 devlog 的说明与链接。"
+description: "A quick update page for Day 2 news, with links back to the official devlog."
 ---
 
 # Day 2 / Updates
 
-当前状态：作者在 devlog 中提到后续更新（以官方 devlog 为准）。任何关于 Day 2 的可玩版本或时间表，以作者的 itch.io devlog 为准。
+Current status: the creator has mentioned future updates in the devlog. Any playable Day 2 version or release timing should be treated as official only when it appears on the creator's itch.io devlog.
 
-官方 devlog 链接：
+Official devlog link:
 
 https://garula.itch.io/the-freak-circus/devlog/1114899/last-devlog-before-the-update-i-hope
 
-我们会在此页面同步简短的更新摘要与指向官方信息的链接（不托管或镜像任何未授权版本）。
+This page will stay focused on short update notes and links to official information only. It does not host, mirror, or redistribute any unauthorized build.

@@ -1,19 +1,19 @@
 ---
 layout: base.liquid
 title: "Content Warning"
-description: "The Freak Circus 内容警示：为什么需要注意，可能触发的主题，以及安全游玩建议。"
+description: "Content guidance for The Freak Circus, including possible trigger themes and safer browsing advice."
 ---
 
 # Content Warning
 
-The Freak Circus 为 18+ 心理恐怖视觉小说，可能包含以下触发主题：
+The Freak Circus is an 18+ psychological horror visual novel and may include the following trigger themes:
 
-- 精神病态描写与惊吓场景
-- 暴力或间接提及的自残情节
-- 成年向性暗示或性主题
+- Disturbing behavior, unstable character presentation, and scare scenes
+- Violence or indirect references to self-harm
+- Sexual themes or adult-oriented implications
 
-建议：
+Suggested caution:
 
-- 未成年或对心理恐怖敏感者请谨慎游玩。
-- 若有严重心理不适史，请避免游玩并咨询专业帮助。
-- 在浏览本站包含剧透的页面前，请先确认你已准备好接受剧透信息。
+- Minors and players sensitive to psychological horror should proceed carefully.
+- If you have a history of severe mental health distress, it may be better to avoid the game and seek professional guidance when needed.
+- Before reading spoiler-heavy pages on this site, make sure you are comfortable seeing route and ending information.
