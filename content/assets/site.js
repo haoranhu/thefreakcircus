@@ -27,7 +27,7 @@
 
       const frame = document.createElement("iframe");
       frame.id = "game_drop";
-      frame.src = "https://html-classic.itch.zone/html/16572088/index.html?v=1771780207";
+      frame.src = "https://freakcircus.brushjjaemu.site/origina/index.html";
       frame.title = "Play The Freak Circus";
       frame.loading = "lazy";
       frame.allowFullscreen = true;
