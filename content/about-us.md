@@ -1,18 +1,19 @@
 ---
 layout: base.liquid
-title: "About The Freak Circus - Game Information | thefreakcircus.org"
-description: "Learn about this recreated static project and its relationship to The Freak Circus."
+title: "About This Site - The Freak Circus Guide"
+description: "Learn what this site covers, how it approaches The Freak Circus, and where it fits alongside official sources."
 ---
 
-## About This Rebuild
+## About This Site
 
-This repository is a static Eleventy recreation inspired by the structure and presentation of `thefreakcircus.org`.
+This site is an independent guide and access hub focused on The Freak Circus. It is designed to help players find official access points, follow route-related topics, and understand major character and update references.
 
-## Scope
+## What This Site Covers
 
-- Recreates the visual language of the public fan site homepage.
-- Keeps the project deployable as a static site.
-- Uses local assets rather than depending on remote production bundles.
+- Official-access guidance
+- Route and ending support
+- Character notes and update tracking
+- Spoiler-aware navigation for new players
 
 ## Important Note
 

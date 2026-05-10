@@ -1,12 +1,12 @@
 ---
 layout: base.liquid
-title: "The Freak Circus Updates - Development News | thefreakcircus.org"
+title: "The Freak Circus Updates - Development News and Day 2 Tracking"
 description: "Stay updated with the latest news and updates for The Freak Circus visual novel."
 ---
 
 ## Updates Hub
 
-This route mirrors the style of the source site and acts as a quick update landing page inside the static rebuild.
+This page tracks update-related interest around The Freak Circus, with a focus on Day 2 developments, character additions, and future story progression.
 
 ## Current Focus
 

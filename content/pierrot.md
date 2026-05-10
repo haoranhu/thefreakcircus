@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "Pierrot Character - The Freak Circus | thefreakcircus.org"
+title: "Pierrot Character - The Freak Circus"
 description: "Discover Pierrot, the melancholic clown from The Freak Circus."
 ---
 

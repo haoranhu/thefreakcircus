@@ -1,15 +1,15 @@
 ---
 layout: base.liquid
-title: "Terms of Service - The Freak Circus | thefreakcircus.org"
-description: "Terms placeholder for this recreated static site."
+title: "Terms of Service - The Freak Circus Guide"
+description: "Terms of service for The Freak Circus Guide, including permitted use and source expectations."
 ---
 
 ## Terms of Service
 
-This project is a static fan-oriented recreation for reference and design use.
+This site is an independent guide resource intended to help players navigate information related to The Freak Circus.
 
 ## Usage
 
-- Do not treat this clone as the official source of release timing.
+- Do not treat this site as the official source of release timing.
 - Follow official download and publication channels for authoritative information.
 - Respect the original creator's rights and distribution terms.

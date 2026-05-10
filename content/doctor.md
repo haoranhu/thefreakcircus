@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "Doctor Character - The Freak Circus | thefreakcircus.org"
+title: "Doctor Character - The Freak Circus"
 description: "Meet the Doctor, the plague doctor from The Freak Circus Day 2."
 ---
 

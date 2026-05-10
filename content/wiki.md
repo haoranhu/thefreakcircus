@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "The Freak Circus Wiki - Game Guide & Story | thefreakcircus.org"
+title: "The Freak Circus Wiki - Story, Characters, and Lore Guide"
 description: "Story, character, and route-support wiki for The Freak Circus."
 ---
 

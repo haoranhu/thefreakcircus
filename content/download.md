@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "Download The Freak Circus - Free Visual Novel | thefreakcircus.org"
+title: "Download The Freak Circus - Official Access Guide"
 description: "Download The Freak Circus visual novel for free. Available for PC, Mac, and Linux."
 ---
 

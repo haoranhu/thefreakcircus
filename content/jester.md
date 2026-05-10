@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "Jester Character - The Freak Circus | thefreakcircus.org"
+title: "Jester Character - The Freak Circus"
 description: "Discover the Jester, the storyteller and observer from The Freak Circus Day 2."
 ---
 

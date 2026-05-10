@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: "Harlequin Character - The Freak Circus | thefreakcircus.org"
+title: "Harlequin Character - The Freak Circus"
 description: "Meet Harlequin, the mischievous trickster from The Freak Circus."
 ---
 

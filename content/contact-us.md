@@ -1,15 +1,13 @@
 ---
 layout: base.liquid
-title: "Contact Us - The Freak Circus | thefreakcircus.org"
-description: "Contact placeholder for this local static recreation."
+title: "Contact Us - The Freak Circus Guide"
+description: "Contact page for The Freak Circus Guide."
 ---
 
 ## Contact
 
-This local project does not include a real contact backend.
+If you need to reach the site operator about corrections, content concerns, or general site feedback, use the contact method listed here when available.
 
-If you want, I can wire this page into:
+At the moment, this page does not include a live contact form backend.
 
-- a static email link
-- a Formspree-style hosted form
-- a custom serverless contact form for deployment
+If you plan to run outreach or feedback collection, a hosted form or email contact method can be added here later.
