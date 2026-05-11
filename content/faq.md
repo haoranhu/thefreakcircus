@@ -4,8 +4,6 @@ title: "The Freak Circus FAQ - Official Access, Pricing, and Day 2 Help"
 description: "Quick answers about official access, pricing, language, and where to follow Day 2 updates."
 ---
 
-# FAQ
-
 Q: Is this the official site?
 
 A: No. This is an independent guide site, and outbound links are kept focused on the official itch.io page and the creator's devlog.

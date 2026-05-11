@@ -31,8 +31,10 @@
     {% endif %}
 
     <link rel="icon" href="/assets/logo.webp">
-    <link rel="preload" href="/assets/home_img_01.webp" as="image" fetchpriority="high">
-    <link rel="preload" href="/assets/game-play.webp" as="image" fetchpriority="high">
+    {% if page.url == "/" %}
+      <link rel="preload" href="/assets/home_img_01.webp" as="image" fetchpriority="high">
+      <link rel="preload" href="/assets/game-play.webp" as="image" fetchpriority="high">
+    {% endif %}
     <link rel="stylesheet" href="/assets/site.css">
 
     <script type="application/ld+json">

@@ -4,8 +4,6 @@ title: "Play The Freak Circus Online - Official Access Guide"
 description: "How to access The Freak Circus through official channels only, with links that point to the official itch.io page."
 ---
 
-# Play Online — Official Access Guide
-
 This page points to official access routes only and avoids pirate copies or unsafe mirrors.
 
 How to play in your browser:
