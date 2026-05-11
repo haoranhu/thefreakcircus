@@ -21,3 +21,5 @@ Pierrot is one of the emotional centers of The Freak Circus. He is theatrical, u
 If you want the clearest understanding of Pierrot, keep multiple saves and pay attention to moments where empathy, suspicion, or reassurance are being tested.
 
 For the strongest search and navigation signal, use this main Pierrot page together with the [Routes Guide](/routes) and [Endings Guide](/endings).
+
+If you're entering late-game branches, compare Pierrot-specific choices against [Day 3 Prep](/day-3) and broader [Wiki](/wiki) notes.

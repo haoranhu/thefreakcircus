@@ -19,3 +19,5 @@ Ticket Taker is tied to mirror imagery, distortion, and the unstable line betwee
 ## Guide Note
 
 If you're replaying for hidden scenes, keep separate saves before mirror-heavy interactions. These moments can dramatically shift tone and interpretation.
+
+For stronger branch planning, connect this page with [Day 2 Update Context](/day-2), [Endings Guide](/endings), and [Wiki](/wiki).

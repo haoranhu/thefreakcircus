@@ -21,3 +21,5 @@ Harlequin pushes the story through contradiction, flirtation, and destabilizatio
 Watch how you respond to her tests. Curiosity, resistance, and participation can all change how much of her subtext becomes visible.
 
 For the strongest search and navigation signal, use this main Harlequin page together with the [Routes Guide](/routes) and [Endings Guide](/endings).
+
+If you're comparing romance-target saves, pair this page with [Day 3 Prep](/day-3) and the general [Wiki](/wiki) before committing to a long replay branch.

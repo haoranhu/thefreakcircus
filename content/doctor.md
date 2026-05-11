@@ -19,3 +19,5 @@ Doctor is one of the most unnerving figures introduced around the Cyan Tent mate
 ## What To Watch For
 
 Track how his dialogue handles fear, pain, and consent. Those details often matter more than surface-level threats in understanding his role.
+
+Doctor scenes make more sense when read alongside [Day 2 Update Context](/day-2), [Day 3 Prep](/day-3), and the broader [Routes Guide](/routes).

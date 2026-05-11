@@ -19,3 +19,5 @@ Jester arrives as one of the most important Day 2 additions. He functions less l
 ## Route Context
 
 If you're using this page as part of route prep, revisit Day 2 scenes involving storytelling and symbolic reenactment. Jester scenes often matter more for interpretation than for direct romance progression.
+
+Use this page with [Day 2 Update Context](/day-2), [Routes Guide](/routes), and [Wiki](/wiki) if you're mapping lore-heavy saves.

@@ -28,6 +28,8 @@ This page is intentionally about preparation first. If you're not working from c
 - Which emotional bond you reinforce consistently.
 - How much optional lore and side-character context you absorb before later route pressure.
 
+If you're targeting a specific branch, compare your notes against [Pierrot](/pierrot), [Harlequin](/harlequin), and the broader [Routes Guide](/routes) before replaying from scratch.
+
 ## Fast Replay Strategy
 
 1. Build three master saves.
@@ -40,5 +42,9 @@ This page is intentionally about preparation first. If you're not working from c
 Use this page together with:
 
 - [Routes Guide](/routes)
+- [Day 2 Update Context](/day-2)
+- [Day 3 Prep](/day-3)
+- [Pierrot](/pierrot)
+- [Harlequin](/harlequin)
 - [Updates](/updates)
 - [Wiki](/wiki)
