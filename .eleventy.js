@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("content/assets");
+  eleventyConfig.addPassthroughCopy("content/ads.txt");
   eleventyConfig.addFilter("dateToIso", (value) => {
     if (!value) return "";
     const date = new Date(value);
