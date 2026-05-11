@@ -1,7 +1,7 @@
 ---
 layout: base.liquid
-title: "The Freak Circus Endings Guide - Save Prep & Branch Planning"
-description: "Ending prep page for The Freak Circus with branching advice, save labeling, and replay planning."
+title: "The Freak Circus Endings Guide - Save Prep, Route Branches & Replay Planning"
+description: "Prepare for ending hunts in The Freak Circus with cleaner saves, branch labels, and replay strategy."
 ---
 
 ## Endings Guide

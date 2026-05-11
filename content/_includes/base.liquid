@@ -45,7 +45,8 @@
         "@type": "WebSite",
         "name": "{{ site.name | escape }}",
         "url": "{{ site.url }}",
-        "description": "{{ site.defaultDescription | escape }}"
+        "description": "{{ site.defaultDescription | escape }}",
+        "inLanguage": "en"
       }
     </script>
     <script type="application/ld+json">
@@ -55,6 +56,7 @@
         "name": "{{ title | default: site.defaultTitle | escape }}",
         "url": "{{ site.url }}{{ page.url }}",
         "description": "{{ description | default: site.defaultDescription | escape }}",
+        "inLanguage": "en",
         "isPartOf": {
           "@type": "WebSite",
           "name": "{{ site.name | escape }}",
@@ -62,6 +64,63 @@
         }
       }
     </script>
+    {% if page.url == "/" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "The Freak Circus",
+        "description": "An 18+ psychological horror visual novel with route-sensitive progression, romance tension, and save-heavy replay planning.",
+        "genre": [
+          "Psychological Horror",
+          "Visual Novel",
+          "Romance"
+        ],
+        "playMode": "SinglePlayer",
+        "gamePlatform": [
+          "Web Browser",
+          "Windows",
+          "macOS",
+          "Linux"
+        ],
+        "inLanguage": "en",
+        "image": "{{ ogImage | default: site.ogImage }}",
+        "url": "https://garula.itch.io/the-freak-circus"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Where should I start if I want a spoiler-safe run?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with the official build, then use the guide path and route planner before reading deeper character or ending pages."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How should I organize saves for all endings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keep at least three route-intent saves and duplicate before any scene that feels emotionally decisive or tent-specific."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if I only care about Pierrot or Harlequin?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Go straight to the character path cards above, then use the route hub to set up focused saves instead of replaying blindly."
+            }
+          }
+        ]
+      }
+    </script>
+    {% endif %}
     {% unless page.url == "/" %}
     <script type="application/ld+json">
       {
@@ -84,6 +143,69 @@
       }
     </script>
     {% endunless %}
+    {% if page.url == "/play-online/" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to play The Freak Circus online through official access",
+        "description": "Use official itch.io access paths to play or locate the current browser or download options for The Freak Circus.",
+        "inLanguage": "en",
+        "totalTime": "PT3M",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Open the official itch.io game page",
+            "text": "Visit the official The Freak Circus itch.io listing rather than a third-party mirror or copied search result."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Check whether browser play is currently offered",
+            "text": "Look for browser or play-now options on the official page, and if those are unavailable use the official download path instead."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Follow official routing only",
+            "text": "Use official links from the creator page or devlog and avoid suspicious mirrors, copied hosts, or unauthorized redistributions."
+          }
+        ]
+      }
+    </script>
+    {% endif %}
+    {% if page.url == "/guide/" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to start The Freak Circus without getting lost",
+        "description": "A spoiler-aware beginner sequence for starting The Freak Circus, choosing official access, and making better first-run saves.",
+        "inLanguage": "en",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Use official access first",
+            "text": "Start from the official play or download path before relying on random third-party search results."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Keep your first run mostly spoiler-safe",
+            "text": "Avoid jumping straight into full ending optimization if you still want surprise from character and route reveals."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Make better saves early",
+            "text": "Keep a main blind-run save, then duplicate before emotionally decisive scenes or route-heavy branches."
+          }
+        ]
+      }
+    </script>
+    {% endif %}
     {% if page.url == "/faq/" %}
     <script type="application/ld+json">
       {

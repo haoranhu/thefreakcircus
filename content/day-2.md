@@ -1,7 +1,7 @@
 ---
 layout: base.liquid
-title: "The Freak Circus Day 2 Updates - Devlog Watch and Route Context"
-description: "A quick update page for Day 2 news, with links back to the official devlog."
+title: "The Freak Circus Day 2 Update - Devlog Watch, New Characters & Route Context"
+description: "Track Day 2 devlog context, new character relevance, and route-planning implications for The Freak Circus."
 ---
 
 Current status: the creator has mentioned future updates in the devlog. Any playable Day 2 version or release timing should be treated as official only when it appears on the creator's itch.io devlog.

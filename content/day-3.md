@@ -1,7 +1,7 @@
 ---
 layout: base.liquid
-title: "The Freak Circus Day 3 Guide - Chapter 3 Route Prep"
-description: "The Freak Circus Day 3 guide hub: save prep, route expectations, and Chapter 3 planning."
+title: "The Freak Circus Day 3 Guide - Chapter 3 Route Prep & Save Advice"
+description: "Prepare for The Freak Circus Day 3 with Chapter 3 expectations, route lock-in notes, and save advice."
 ---
 
 ## Day 3 Prep Hub

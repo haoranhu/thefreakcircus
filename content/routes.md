@@ -1,7 +1,7 @@
 ---
 layout: base.liquid
-title: "The Freak Circus Routes Guide - Pierrot, Harlequin & Save Planning"
-description: "Route guide hub for The Freak Circus with save prep, character path notes, and spoiler-aware planning."
+title: "The Freak Circus Routes Guide - Pierrot Route, Harlequin Route & Save Planning"
+description: "Plan Pierrot and Harlequin routes, balanced saves, and side-character branch timing for The Freak Circus."
 ---
 
 ## Routes Hub
