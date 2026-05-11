@@ -2,6 +2,8 @@
 layout: base.liquid
 title: "Doctor Character - The Freak Circus"
 description: "Meet the Doctor, the plague doctor from The Freak Circus Day 2."
+ogImage: "https://thefreakcircus.me/assets/characters_04.webp"
+ogImageAlt: "Doctor character artwork from The Freak Circus guide"
 ---
 
 ## Overview

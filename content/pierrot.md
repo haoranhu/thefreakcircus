@@ -2,6 +2,8 @@
 layout: base.liquid
 title: "Pierrot Character - The Freak Circus"
 description: "Discover Pierrot, the melancholic clown from The Freak Circus."
+ogImage: "https://thefreakcircus.me/assets/characters_01.webp"
+ogImageAlt: "Pierrot character artwork from The Freak Circus guide"
 ---
 
 ## Overview

@@ -2,6 +2,8 @@
 layout: base.liquid
 title: "Jester Character - The Freak Circus"
 description: "Discover the Jester, the storyteller and observer from The Freak Circus Day 2."
+ogImage: "https://thefreakcircus.me/assets/characters_03.webp"
+ogImageAlt: "Jester character artwork from The Freak Circus guide"
 ---
 
 ## Overview

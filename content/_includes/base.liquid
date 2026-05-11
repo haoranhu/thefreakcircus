@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title | default: site.defaultTitle }}</title>
     <meta name="description" content="{{ description | default: site.defaultDescription }}">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="{{ robots | default: 'index, follow' }}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
     <meta property="og:type" content="website">
@@ -14,14 +14,14 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:title" content="{{ title | default: site.defaultTitle }}">
     <meta property="og:description" content="{{ description | default: site.defaultDescription }}">
-    <meta property="og:image" content="{{ site.ogImage }}">
-    <meta property="og:image:alt" content="{{ site.ogImageAlt }}">
+    <meta property="og:image" content="{{ ogImage | default: site.ogImage }}">
+    <meta property="og:image:alt" content="{{ ogImageAlt | default: site.ogImageAlt }}">
 
     <meta name="twitter:card" content="{{ site.twitterCard }}">
     <meta name="twitter:title" content="{{ title | default: site.defaultTitle }}">
     <meta name="twitter:description" content="{{ description | default: site.defaultDescription }}">
-    <meta name="twitter:image" content="{{ site.ogImage }}">
-    <meta name="twitter:image:alt" content="{{ site.ogImageAlt }}">
+    <meta name="twitter:image" content="{{ ogImage | default: site.ogImage }}">
+    <meta name="twitter:image:alt" content="{{ ogImageAlt | default: site.ogImageAlt }}">
 
     {% if site.googleSiteVerification != blank %}
       <meta name="google-site-verification" content="{{ site.googleSiteVerification }}">
@@ -137,7 +137,7 @@
     <header class="site-header" data-header>
       <div class="container header-content">
         <a class="brand" href="/">
-          <img class="brand-logo" src="/assets/logo.webp" alt="The Freak Circus logo">
+          <img class="brand-logo" src="/assets/logo.webp" alt="The Freak Circus logo" width="48" height="48">
           <span class="brand-text">The Freak Circus</span>
         </a>
 
@@ -213,7 +213,7 @@
       <div class="container footer-grid">
         <section>
           <div class="footer-brand">
-            <img src="/assets/logo.webp" alt="The Freak Circus logo">
+            <img src="/assets/logo.webp" alt="The Freak Circus logo" width="48" height="48">
             <h2>The Freak Circus</h2>
           </div>
           <p>Dive into a twisted circus world where obsession, rivalry, and psychological horror collide.</p>

@@ -8,6 +8,10 @@ eleventyExcludeFromCollections: true
   {%- if entry.url and entry.url != '/robots.txt' and entry.url != '/sitemap.xml' and entry.data.sitemap != false -%}
   <url>
     <loc>{{ site.url }}{{ entry.url }}</loc>
+    {%- set lastmod = entry.date -%}
+    {%- if lastmod %}
+    <lastmod>{{ lastmod | dateToIso }}</lastmod>
+    {%- endif %}
   </url>
   {%- endif -%}
 {%- endfor -%}

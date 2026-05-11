@@ -2,6 +2,8 @@
 layout: base.liquid
 title: "Ticket Taker Character - The Freak Circus"
 description: "Discover the Ticket Taker, the reality manipulator from The Freak Circus Day 2."
+ogImage: "https://thefreakcircus.me/assets/characters_05.webp"
+ogImageAlt: "Ticket Taker character artwork from The Freak Circus guide"
 ---
 
 ## Overview

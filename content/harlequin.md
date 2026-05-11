@@ -2,6 +2,8 @@
 layout: base.liquid
 title: "Harlequin Character - The Freak Circus"
 description: "Meet Harlequin, the mischievous trickster from The Freak Circus."
+ogImage: "https://thefreakcircus.me/assets/characters_02.webp"
+ogImageAlt: "Harlequin character artwork from The Freak Circus guide"
 ---
 
 ## Overview
