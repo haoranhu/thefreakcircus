@@ -1,18 +1,19 @@
 ---
 layout: base.liquid
-title: "The Freak Circus Beginner Guide - Where to Start Without Getting Lost"
-description: "Beginner guide for The Freak Circus with official access tips, spoiler-safe onboarding, and first-run advice."
+title: "The Freak Circus Walkthrough - Beginner Guide and First Run Tips"
+description: "Start The Freak Circus with a spoiler-safe walkthrough built for new players. Learn where to begin, when to save, and which pages to read next without getting lost."
 ---
 
-## Beginner Guide
+## The Freak Circus Walkthrough Guide
 
-This page is for first-time players who want a clean entry point before reading route and ending material.
+This beginner walkthrough for The Freak Circus is built for first-time players who want a spoiler-safe starting path before moving into route pages, ending pages, or lore-heavy reading.
 
-## What kind of game is this?
+## What this walkthrough helps you do
 
 - 18+ psychological horror visual novel
 - Character-driven, route-sensitive, and emotionally loaded
 - Best approached with deliberate saves once you know you want multiple endings
+- Easier to follow when official access, first-run reading, and later route planning are kept separate
 
 ## Step 1: Use official access first
 
@@ -22,7 +23,7 @@ This page is for first-time players who want a clean entry point before reading 
 ## Step 2: Keep your first run mostly spoiler-safe
 
 - Do not jump straight into full ending optimization if you still want surprise.
-- Use character pages only when you need light direction.
+- Use the [Characters Guide](/characters) or individual character pages only when you need light direction.
 - Save heavy route comparison for the [Routes Guide](/routes) and [Endings Guide](/endings).
 
 ## Step 3: Make better saves early
@@ -31,8 +32,16 @@ This page is for first-time players who want a clean entry point before reading 
 - Duplicate before scenes that feel emotionally decisive.
 - If you already know you're replaying, start a second slot for either Pierrot or Harlequin focus.
 
-## Recommended next pages
+## What to read after this walkthrough
 
+- [Characters Guide](/characters)
 - [Wiki](/wiki)
 - [Routes Guide](/routes)
-- [Day 2 / Updates](/day-2)
+- [Day 3](/day-3)
+
+## What this page does not replace
+
+- [Play Online](/play-online) for official-access instructions
+- [Download](/download) for download-specific guidance
+- [Routes Guide](/routes) for route-only planning
+- [Endings Guide](/endings) for replay and outcome tracking

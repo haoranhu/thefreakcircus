@@ -1,12 +1,12 @@
 ---
 layout: base.liquid
-title: "The Freak Circus Endings Guide - Save Prep, Route Branches & Replay Planning"
-description: "Prepare for ending hunts in The Freak Circus with cleaner saves, branch labels, and replay strategy."
+title: "The Freak Circus All Endings Guide - Pierrot and Harlequin"
+description: "Get a complete all endings guide for The Freak Circus with save planning, route branches, and replay structure. Use this page if you want every outcome for Pierrot, Harlequin, and related paths."
 ---
 
 ## Endings Guide
 
-This page is intentionally about preparation first. If you're not working from clean saves, ending hunting becomes slower than it needs to be.
+This all endings guide for The Freak Circus helps you organize saves, route branches, and replay paths so you can unlock every major outcome more efficiently.
 
 ## Before You Chase Endings
 

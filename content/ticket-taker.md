@@ -16,8 +16,19 @@ Ticket Taker is tied to mirror imagery, distortion, and the unstable line betwee
 - His role makes the circus feel supernatural, not just theatrical.
 - He often pushes players toward uncomfortable self-recognition rather than straightforward exposition.
 
+## Why players look for Ticket Taker
+
+Ticket Taker usually becomes important when players start asking whether the circus can be trusted at all. He is one of the strongest characters for mirror symbolism, altered perception, and the feeling that the game is watching how you interpret it.
+
 ## Guide Note
 
 If you're replaying for hidden scenes, keep separate saves before mirror-heavy interactions. These moments can dramatically shift tone and interpretation.
 
 For stronger branch planning, connect this page with [Day 2 Update Context](/day-2), [Endings Guide](/endings), and [Wiki](/wiki).
+
+## Best companion pages
+
+- [Day 2](/day-2)
+- [Wiki](/wiki)
+- [Endings Guide](/endings)
+- [Characters Guide](/characters)
